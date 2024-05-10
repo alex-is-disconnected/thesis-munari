@@ -1,4 +1,4 @@
-# Thesis Munari: Chrome Extension for Section D
+# Thesis Munari: A Chrome Extension for Section D
 
 ![Preview image for Thesis Munari Chrome Extension](Images/WLw_Image_1.png)
 
