@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Thesis Munari",
+  "description": "Fun Times",
+  "version": "1.0",
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "icons/14.svg"
+  },
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  }
+}

@@ -1,0 +1,68 @@
+@font-face {
+  font-family: "Helvetica Neue Bold";
+  src: url("fonts/HelveticaNeue-Bold.otf") format("opentype");
+}
+
+* {
+  font-family: "Helvetica Neue Bold";
+}
+
+body {
+  margin: 0;
+}
+
+#spacing-container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+#main-parent {
+  display: flex;
+  height: fit-content;
+  width: 100vw;
+  justify-content: space-evenly;
+}
+
+#title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 6pt;
+  position: relative;
+}
+
+#title-lower > h1 {
+  line-height: 1;
+}
+
+h1 {
+  font-size: 48pt;
+  margin: 0;
+  line-height: 0.9;
+}
+
+#icon-container {
+  display: flex;
+  max-width: 40vw;
+  max-height: 90vh;
+  aspect-ratio: 1;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+#icon-container > img {
+  width: calc(25% - 10px);
+}
+
+#penguin-h1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+#penguin > img {
+  height: 40pt;
+}
